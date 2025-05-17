@@ -41,7 +41,7 @@ export default function CallToAction() {
               <Button
                 size="lg"
                 variant="outline"
-                className="w-full sm:w-auto border-white text-white hover:bg-white/10"
+                className="w-full sm:w-auto text-black"
               >
                 Try Our Calculator <ArrowRight className="ml-2 h-4 w-4" />
               </Button>

@@ -4,8 +4,8 @@ import { motion } from "framer-motion"
 
 export default function Testimonial() {
   return (
-    <div className="container px-4 py-20">
-      <div className="grid md:grid-cols-2 gap-12 items-center">
+    <div className="container px-4 py-20 lg:px-40">
+      <div className="grid md:grid-cols-2 md:gap-32 gap-12 items-center">
         <motion.div
           initial={{ opacity: 0, x: -20 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -28,7 +28,7 @@ export default function Testimonial() {
               <div className="flex items-center">
                 <div className="w-16 h-16 bg-purple-100 dark:bg-purple-900 rounded-full mr-4 overflow-hidden">
                   <img
-                    src="/placeholder.svg?height=100&width=100"
+                    src="https://www.shutterstock.com/image-photo/head-shot-portrait-close-smiling-600nw-1714666150.jpg"
                     alt="Amanda"
                     width={100}
                     height={100}
@@ -102,9 +102,9 @@ export default function Testimonial() {
 
           <div className="space-y-6">
             <div className="flex items-start">
-              <div className="bg-purple-100 dark:bg-purple-900/50 rounded-full p-2 mr-4">
+              <div className=" dark:bg-purple-900/50 rounded-full p-2 mr-4">
                 <svg
-                  className="h-5 w-5 text-purple-600 dark:text-purple-400"
+                  className="h-5 w-5 "
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -119,9 +119,9 @@ export default function Testimonial() {
             </div>
 
             <div className="flex items-start">
-              <div className="bg-purple-100 dark:bg-purple-900/50 rounded-full p-2 mr-4">
+              <div className=" rounded-full p-2 mr-4">
                 <svg
-                  className="h-5 w-5 text-purple-600 dark:text-purple-400"
+                  className="h-5 w-5 "
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -141,9 +141,9 @@ export default function Testimonial() {
             </div>
 
             <div className="flex items-start">
-              <div className="bg-purple-100 dark:bg-purple-900/50 rounded-full p-2 mr-4">
+              <div className="rounded-full p-2 mr-4">
                 <svg
-                  className="h-5 w-5 text-purple-600 dark:text-purple-400"
+                  className="h-5 w-5"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -163,7 +163,7 @@ export default function Testimonial() {
             </div>
           </div>
 
-          <Button className="mt-8 bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white">
+          <Button className="mt-8 bg-purple-600 text-white rounded-r-full rounded-l-full">
             See all our stories <ArrowRight className="ml-2 h-4 w-4" />
           </Button>
 

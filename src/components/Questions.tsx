@@ -6,7 +6,7 @@ import { motion } from "framer-motion"
 
 export default function Questions() {
   return (
-    <div className="container px-4 py-20">
+    <div className="container px-4 py-20 lg:px-40">
       <div className="text-center mb-16">
         <div className="inline-block bg-purple-100 dark:bg-purple-900/50 rounded-lg px-3 py-1 text-sm font-medium text-purple-800 dark:text-purple-300 mb-4">
           Resources & Tools
@@ -43,21 +43,21 @@ export default function Questions() {
                 description: "Estimate your monthly payments",
                 icon: PieChart,
                 link: "/calculator",
-                image: "/placeholder.svg?height=300&width=500",
+                image: "./public/mortgage_calculator.png",
               },
               {
                 title: "Affordability Calculator",
                 description: "See how much house you can afford",
                 icon: DollarSign,
                 link: "#",
-                image: "/placeholder.svg?height=300&width=500",
+                image: "https://lh3.googleusercontent.com/Y1z4whUYbsEwC96Ouawopr7mVK-XojesXEvW1e_AcuyLXNf_Ub_j0yavSUDHVu5wtBa2Gn6qKki15n2vE4G89vZFbEtyd1z3k-YwNaknr9pM9s7palDu3nzUaS4yrRXHWF7mVa59pv0Eq736CR0Ic3Q",
               },
               {
                 title: "Refinance Calculator",
                 description: "See if refinancing makes sense",
                 icon: Calculator,
                 link: "#",
-                image: "/placeholder.svg?height=300&width=500",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw9s_9IrkI_eqxoH6cZcihDvhmJ3k4lNUm2w&s",
               },
             ].map((item, index) => (
               <motion.div
@@ -106,21 +106,21 @@ export default function Questions() {
                 description: "Purchase or refinance your home",
                 icon: Home,
                 link: "/start",
-                image: "/placeholder.svg?height=300&width=500",
+                image: "public/mortgage_calculator.png",
               },
               {
                 title: "HELOC",
                 description: "Access your home equity",
                 icon: DollarSign,
                 link: "/start",
-                image: "/placeholder.svg?height=300&width=500",
+                image: "https://b3353362.smushcdn.com/3353362/wp-content/uploads/2025/04/top_home_equity_loans_bad_credit_2025-300x180.png?lossy=2&strip=1&webp=1",
               },
               {
                 title: "One Day Mortgage",
                 description: "Close your loan faster than ever",
                 icon: Clock,
                 link: "/start",
-                image: "/placeholder.svg?height=300&width=500",
+                image: "https://assets2.cbsnewsstatic.com/hub/i/r/2023/03/27/381b97cf-05fb-483b-902a-2797e0361d63/thumbnail/640x427/8ae07257890a56a46ba3a7d460c1b3f1/how-much-equity-can-i-borrow-from-my-home.jpg?v=8e9dede207b29c97b32974c53e32aabc",
               },
             ].map((item, index) => (
               <motion.div
@@ -137,7 +137,7 @@ export default function Questions() {
                       alt={item.title}
                       width={500}
                       height={300}
-                      className="w-full h-full object-cover"
+                      className="w-full h-full object-cover absolute"
                     />
                     <div className="absolute top-4 right-4 bg-white dark:bg-gray-800 rounded-full p-2 shadow-md">
                       <item.icon className="h-5 w-5 text-purple-600 dark:text-purple-400" />
@@ -169,21 +169,21 @@ export default function Questions() {
                 description: "Everything you need to know",
                 icon: FileText,
                 link: "#",
-                image: "/placeholder.svg?height=300&width=500",
+                image: "https://homesfy.in/blog/wp-content/uploads/2024/02/First-time-home-buyer-2024.jpg",
               },
               {
                 title: "Mortgage FAQs",
                 description: "Common questions answered",
                 icon: FileText,
                 link: "#",
-                image: "/placeholder.svg?height=300&width=500",
+                image: "https://i.ytimg.com/vi/3ok_k-sU3lY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCAV4WFA4cDu46aKHCL8wKyyGAOBw",
               },
               {
                 title: "Refinancing Guide",
                 description: "When and how to refinance",
                 icon: FileText,
                 link: "#",
-                image: "/placeholder.svg?height=300&width=500",
+                image: "https://blog.tatanexarc.com/wp-content/uploads/2023/03/Refinancing-your-business-loan-The-ultimate-guide-to-saving-big-1.jpg",
               },
             ].map((item, index) => (
               <motion.div

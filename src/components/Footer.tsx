@@ -5,8 +5,8 @@ import { Input } from "@/components/ui/input"
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-r from-gray-50 to-purple-50 dark:from-gray-900 dark:to-gray-800 border-t dark:border-gray-800">
-      <div className="container py-12 px-4">
+    <footer className="bg-gradient-to-r from-gray-50 to-purple-50 dark:from-gray-900 dark:to-gray-800 border-t dark:border-gray-800 flex justify-center items-center w-full">
+      <div className="container py-12 px-4 lg:px-20">
         {/* Newsletter Section */}
         <div className="max-w-4xl mx-auto mb-16 bg-white dark:bg-gray-800 rounded-2xl shadow-xl overflow-hidden">
           <div className="grid md:grid-cols-2">

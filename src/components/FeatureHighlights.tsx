@@ -5,7 +5,7 @@ import { Shield, Zap, DollarSign, Clock, CheckCircle } from "lucide-react"
 
 export default function FeatureHighlights() {
   return (
-    <div className="py-20 bg-white dark:bg-gray-900">
+    <div className="py-20 md:px-40 bg-white dark:bg-gray-900">
       <div className="container px-4">
         <div className="text-center mb-16">
           <div className="inline-block bg-purple-100 dark:bg-purple-900/50 rounded-lg px-3 py-1 text-sm font-medium text-purple-800 dark:text-purple-300 mb-4">
@@ -19,7 +19,7 @@ export default function FeatureHighlights() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-16 items-center">
+        <div className="grid md:grid-cols-2 gap-20 items-center">
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -31,7 +31,7 @@ export default function FeatureHighlights() {
               <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-indigo-100 dark:bg-indigo-900/30 rounded-full opacity-70"></div>
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                 <img
-                  src="/placeholder.svg?height=600&width=800"
+                  src="https://www.infosysbpm.com/content/dam/infosys-bpm/en/blogs/images/improving-customer-experience-through-digital-mortgage-medium.jpg"
                   alt="Digital mortgage experience"
                   width={800}
                   height={600}
@@ -46,14 +46,14 @@ export default function FeatureHighlights() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="space-y-8"
+            className="space-y-8 text-sm"
           >
             <div className="flex items-start">
-              <div className="bg-gradient-to-r from-purple-600 to-indigo-600 rounded-lg p-3 mr-5 shadow-md">
-                <Zap className="h-6 w-6 text-white" />
+              <div className=" rounded-full p-3 mr-5 shadow-md">
+                <Zap className="h-6 w-6 " />
               </div>
               <div>
-                <h3 className="text-xl font-bold mb-2 text-gray-900 dark:text-white">Lightning-Fast Process</h3>
+                <h3 className="text-lg font-bold mb-2 text-gray-900 dark:text-white">Lightning-Fast Process</h3>
                 <p className="text-gray-600 dark:text-gray-300">
                   Get pre-approved in as little as 3 minutes and close on your mortgage in as few as 14 days, compared
                   to the industry average of 47 days.
@@ -62,11 +62,11 @@ export default function FeatureHighlights() {
             </div>
 
             <div className="flex items-start">
-              <div className="bg-gradient-to-r from-purple-600 to-indigo-600 rounded-lg p-3 mr-5 shadow-md">
-                <DollarSign className="h-6 w-6 text-white" />
+              <div className=" rounded-full p-3 mr-5 shadow-md">
+                <DollarSign className="h-6 w-6" />
               </div>
               <div>
-                <h3 className="text-xl font-bold mb-2 text-gray-900 dark:text-white">No Lender Fees</h3>
+                <h3 className="text-lg font-bold mb-2 text-gray-900 dark:text-white">No Lender Fees</h3>
                 <p className="text-gray-600 dark:text-gray-300">
                   We've eliminated commission structures and unnecessary fees, saving our customers an average of $3,500
                   in closing costs.
@@ -75,11 +75,11 @@ export default function FeatureHighlights() {
             </div>
 
             <div className="flex items-start">
-              <div className="bg-gradient-to-r from-purple-600 to-indigo-600 rounded-lg p-3 mr-5 shadow-md">
-                <Shield className="h-6 w-6 text-white" />
+              <div className="rounded-full p-3 mr-5 shadow-md">
+                <Shield className="h-6 w-6" />
               </div>
               <div>
-                <h3 className="text-xl font-bold mb-2 text-gray-900 dark:text-white">Transparent & Secure</h3>
+                <h3 className="text-lg font-bold mb-2 text-gray-900 dark:text-white">Transparent & Secure</h3>
                 <p className="text-gray-600 dark:text-gray-300">
                   Our digital platform provides complete visibility into your loan status with bank-level security to
                   protect your sensitive information.
@@ -88,11 +88,11 @@ export default function FeatureHighlights() {
             </div>
 
             <div className="flex items-start">
-              <div className="bg-gradient-to-r from-purple-600 to-indigo-600 rounded-lg p-3 mr-5 shadow-md">
-                <Clock className="h-6 w-6 text-white" />
+              <div className="rounded-full p-3 mr-5 shadow-md">
+                <Clock className="h-6 w-6 " />
               </div>
               <div>
-                <h3 className="text-xl font-bold mb-2 text-gray-900 dark:text-white">24/7 Online Access</h3>
+                <h3 className="text-lg font-bold mb-2 text-gray-900 dark:text-white">24/7 Online Access</h3>
                 <p className="text-gray-600 dark:text-gray-300">
                   Apply, upload documents, and check your loan status anytime, anywhere through our user-friendly online
                   portal and mobile app.

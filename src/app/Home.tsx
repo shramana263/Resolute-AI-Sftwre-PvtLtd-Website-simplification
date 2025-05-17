@@ -10,10 +10,10 @@ export default function Home() {
   return (
     <div>
       <Hero />
-      <TrustedBy />
+      {/* <TrustedBy /> */}
       <FeatureHighlights />
       <Testimonial />
-      <WhyBetter />
+      {/* <WhyBetter /> */}
       <Questions />
       <CallToAction />
     </div>
