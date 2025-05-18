@@ -8,30 +8,25 @@ const testimonials = [
 		name: "Paul M.",
 		image: "https://randomuser.me/api/portraits/men/32.jpg",
 		role: "Refinanced homeowner",
-		feedback:
-			"Better made refinancing my home so easy and stress-free. The team was responsive and I got a great rate!",
+		feedback: "Better made refinancing my home so easy and stress-free. The team was responsive and I got a great rate!",
 	},
 	{
 		name: "Amanda T.",
-		image:
-			"https://www.shutterstock.com/image-photo/head-shot-portrait-close-smiling-600nw-1714666150.jpg",
+		image: "https://www.shutterstock.com/image-photo/head-shot-portrait-close-smiling-600nw-1714666150.jpg",
 		role: "First-time homebuyer",
-		feedback:
-			"The speed with which I decided to go with Better Mortgage was a big improvement over other lenders. The process was simple with fast turnaround time. I was able to close on my dream home in just 21 days!",
+		feedback: "The speed with which I decided to go with Better Mortgage was a big improvement over other lenders. The process was simple with fast turnaround time. I was able to close on my dream home in just 21 days!",
 	},
 	{
 		name: "Michael R.",
 		image: "https://randomuser.me/api/portraits/men/44.jpg",
 		role: "Repeat buyer",
-		feedback:
-			"I’ve bought homes before, but this was by far the smoothest experience. The digital process saved me so much time.",
+		feedback: "I've bought homes before, but this was by far the smoothest experience. The digital process saved me so much time.",
 	},
 	{
 		name: "Jennifer L.",
 		image: "https://randomuser.me/api/portraits/women/65.jpg",
 		role: "Investment property owner",
-		feedback:
-			"I was able to close on my investment property quickly and with no hidden fees. Highly recommend Better!",
+		feedback: "I was able to close on my investment property quickly and with no hidden fees. Highly recommend Better!",
 	},
 ]
 
