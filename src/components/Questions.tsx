@@ -50,7 +50,7 @@ export default function Questions() {
                 description: "See how much house you can afford",
                 icon: DollarSign,
                 link: "#",
-                image: "https://lh3.googleusercontent.com/Y1z4whUYbsEwC96Ouawopr7mVK-XojesXEvW1e_AcuyLXNf_Ub_j0yavSUDHVu5wtBa2Gn6qKki15n2vE4G89vZFbEtyd1z3k-YwNaknr9pM9s7palDu3nzUaS4yrRXHWF7mVa59pv0Eq736CR0Ic3Q",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdn342r-IU6nEOM5YoohrjVcoul0zBe3Jo5g&s",
               },
               {
                 title: "Refinance Calculator",
