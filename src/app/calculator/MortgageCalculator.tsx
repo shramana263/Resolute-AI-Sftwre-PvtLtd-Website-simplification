@@ -197,11 +197,10 @@ export default function MortgageCalculator() {
                     {[15, 20, 30].map((term) => (
                       <button
                         key={term}
-                        className={`py-3 px-4 rounded-lg border-2 transition-all ${
-                          loanTerm === term
+                        className={`py-3 px-4 rounded-lg border-2 transition-all ${loanTerm === term
                             ? "border-purple-600 bg-purple-50 text-purple-700 font-medium"
                             : "border-gray-200 text-gray-700 hover:border-purple-200"
-                        }`}
+                          }`}
                         onClick={() => setLoanTerm(term)}
                       >
                         {term} years
@@ -346,17 +345,31 @@ export default function MortgageCalculator() {
                       <div className="text-gray-600">per month</div>
                     </div>
 
-                    <div className="relative h-64 mb-8">
-                      <div className="absolute inset-0 flex items-center justify-center">
-                        <img
-                          src="/placeholder.svg?height=300&width=300"
-                          alt="Payment breakdown chart"
-                          width={300}
-                          height={300}
-                          className="w-full h-auto max-w-[250px]"
-                        />
+                    {/* Payment Breakdown Chart
+                    <div className="card p-8">
+                      <h2 className="heading-sm mb-6 text-primary">Payment Breakdown</h2>
+                      <div className="h-[300px]">
+                        <ResponsiveContainer width="100%" height="100%">
+                          <PieChart>
+                            <Pie
+                              data={data}
+                              cx="50%"
+                              cy="50%"
+                              innerRadius={60}
+                              outerRadius={100}
+                              paddingAngle={5}
+                              dataKey="value"
+                              label={({ name, percent }) => `${name} ${(percent * 100).toFixed(0)}%`}
+                            >
+                              {data.map((entry, index) => (
+                                <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+                              ))}
+                            </Pie>
+                            <Legend />
+                          </PieChart>
+                        </ResponsiveContainer>
                       </div>
-                    </div>
+                    </div> */}
 
                     <div className="space-y-6">
                       <div>

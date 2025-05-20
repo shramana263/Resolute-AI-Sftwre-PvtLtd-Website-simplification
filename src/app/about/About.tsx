@@ -47,7 +47,7 @@ export default function About() {
             <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-indigo-200 rounded-full opacity-70"></div>
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="/placeholder.svg?height=600&width=800"
+                src="https://img.freepik.com/free-photo/modern-office-space-interior_158595-5206.jpg?semt=ais_hybrid&w=740"
                 alt="Our office"
                 width={800}
                 height={600}
@@ -227,7 +227,7 @@ export default function About() {
               <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-indigo-500 rounded-full opacity-30"></div>
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                 <img
-                  src="/placeholder.svg?height=600&width=800"
+                  src="https://media.istockphoto.com/id/1443245439/photo/business-meeting-businesswoman-woman-office-portrait-job-career-happy-businessman-teamwork.jpg?s=612x612&w=0&k=20&c=1ZR02c1UKfGdBCNWzzKlrwrVZuEiOqnAKcKF4V_t038="
                   alt="Our team"
                   width={800}
                   height={600}
