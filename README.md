@@ -1,5 +1,3 @@
-# Frontend Developer Intern Screening Assignment
-
 ## Project Overview
 This project is a simplified recreation of the website [https://better-take-home.vercel.app](https://better-take-home.vercel.app). The website includes the following pages and features:
 
