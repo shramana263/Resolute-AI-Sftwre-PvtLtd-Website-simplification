@@ -28,7 +28,7 @@ export default function MortgageCalculator() {
   const [propertyTax, setPropertyTax] = useState(2500)
   const [homeInsurance, setHomeInsurance] = useState(1200)
   const [zipCode, setZipCode] = useState("")
-  const [activeTab, setActiveTab] = useState("mortgage")
+  const [, setActiveTab] = useState("mortgage")
 
   const [monthlyPayment, setMonthlyPayment] = useState(0)
   const [principalInterest, setPrincipalInterest] = useState(0)
